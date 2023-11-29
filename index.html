@@ -10,7 +10,24 @@
    <div class="wrapper"> <!--  Этот элемент является корневым вместо body -->
         <header class="header"><!-- Симантический тег header содержит в себе шапку сайта, обычно в неё находится логотип и навигация
             (для навигации используется тег nav)-->
-            <div class="header__container _container"></div><!--Все классы или переменные начинающиеся с "_" являются служебными, 
+            <div class="header__container _container">
+                <div class="header__logo-mail-wrapper">
+                    <div class="header__logo-container">
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                    <div class="header__mail-container">
+                        <a href="mailto:">mail@blanko.com</a>
+                    </div>  
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-list-item"><a href="" class="header__nav__link"></a></li>
+                        <li class="header__nav-list-item"><a href="" class="header__nav__link"></a></li>
+                        <li class="header__nav-list-item"><a href="" class="header__nav__link"></a></li>
+                        <li class="header__nav-list-item"><a href="" class="header__nav__link _button"></a></li>
+                    </ul>
+                </nav>
+            </div><!--Все классы или переменные начинающиеся с "_" являются служебными, 
                 в нашем случае это нужно для создания элемента, который мы будем использовать много раз-->
         </header>
         <main class="main"> <!-- Здесь располагается основной контент сайта-->
